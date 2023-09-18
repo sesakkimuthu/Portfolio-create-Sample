@@ -1,0 +1,226 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,600;1,500;1,700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+  
+}
+html{
+  user-select: none;
+}
+
+nav{
+  background-color:rgb(6, 6, 245);
+  
+
+}
+.navbar-nav, .nav-link{
+  color: rgb(245, 239, 239);
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.nav-link:hover{
+background-color: rgb(3, 1, 3);
+transition: 0.3s;
+  
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* main section */
+.main h3{
+  font-size: 4.3rem;
+  font-weight: 700;
+}
+.main h6{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  border-radius: 2px;
+}
+.main .btn1{
+  height: 50px;
+  color: white;
+  width: 138px;
+  background-color: red;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+.main .btn1:hover{
+  color: rgb(5, 5, 5);
+  background-color: #35fd03;
+  
+}
+
+.main .btn2{
+  height: 50px;
+  color: white;
+  width: 138px;
+  background-color: red;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.main .btn2:hover{
+  color: rgb(5, 5, 5);
+  background-color: #3ffc05;
+  
+}
+.about img{
+  /*
+  box-shadow: 10px 10px 12px 7px rgba(250, 245, 245, 0.75);
+-webkit-box-shadow: 10px 10px 10px 7px rgba(224, 211, 211, 0.75);
+-moz-box-shadow: 10px 10px 10px 7px rgba(230, 222, 222, 0.75);
+*/
+}
+
+.btn1{
+  background-color: rgb(7, 3, 247);
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+
+}
+.btn2{
+  background-color: rgb(7, 3, 247);
+  width: 130px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
+.btn2:hover{
+  background-color: black;
+  color: white;
+}
+.card{
+  border: none;
+  outline: none;
+}
+.card p{
+  color: rgb(70, 68, 68);
+  text-align: center;
+
+}
+.circle{
+  height: 70px;
+  width: 70px;
+  background-color:lightgray;
+ color: black;
+ padding: 12px;
+ font-size: 30px;
+ display: inline-block;
+ margin-bottom: 20px;
+ border-radius: 50px;
+}
+
+.card:hover .circle{
+  background-color: black;
+  color: rgb(243, 234, 234);
+  transition: 0.5s;
+}
+
+/* portfolio */
+
+.control ul li{
+  list-style: none;
+  background-color: black;
+  padding: 5px 15px;
+  color: white;
+  display: inline-block;
+  letter-spacing: 2px;
+  cursor: pointer;
+  }
+
+  .item{
+    position: relative;
+  }
+  .item:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .item span{
+    position: absolute;
+    top:40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+  }
+.item:hover span{
+  opacity: 1;
+  transition: 0.5s;
+}
+.item::before{
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 245, 220, 0.233);
+  opacity: 0;
+  position: absolute;
+}
+.item:hover::before{
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.circle:hover{
+  background-color: black;
+  transition: 0.3s;
+  color: white;
+}
+
+/*
+.contact .btn3{
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+  border-radius: 5px;
+
+}
+
+.btn3:hover{
+  background: transparent;
+  color: black;
+  transition: 0.3s;
+  border: 1px solid black;
+  
+}
+*/
+footer{
+  background-color: rgb(11, 11, 14);
+  color: white;
+  text-align: center;
+
+  padding: 12px;
+
+}
+
+
